@@ -1,0 +1,116 @@
+<!--
+Required Features:
+• The page should be encoded using the UTF-8 character set
+• A page title, defined in the head element.
+• A header element containing a heading (h1) with the page name. It should also have a nav element with an unordered list of at least 3 links
+• A container element for the main content of the page, containing a heading (h2), a paragraph of text and two article elements.
+  Each should have filler text - at least 2 paragraphs each. One should have an image (use free online pic)
+• A aside element, containing a heading (h2) and an unordered list of nations, each list item containing an ordered list of the nation’s three biggest cities
+• A footer element, containing a copyright symbol and your name
+Resources:
+• https://lexicon.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/
+• http://www.w3schools.com/ - General HTML reference
+• http://sv.lipsum.com/ - Filler Text
+Expected Duration: 1 to 2 Days.
+Subjects Covered:
+• Basic HTML
+o Containers
+▪ Header, Footer, Nav, Section, Article, Aside
+o Lists
+▪ Ordered, Unordered
+o Text
+▪ Span, Paragraph
+o Images
+o Headings
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Html-assignment</title>
+  </head>
+  <body>
+    <header>
+      <h1>The assignment</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.w3schools.com/tags/default.asp"
+              >1. Link to HTML Element Reference.</a
+            >
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/html/default.asp"
+              >2.Link to HTML5 Tutorial.</a
+            >
+          </li>
+          <li>
+            <a href="https://sv.lipsum.com/">3.Link to Lorem Ipsum webpage.</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h2>Lorem Ipsum</h2>
+      <p>
+        Vivamus eget enim urna. Nam et sodales nunc. Morbi et urna velit. Sed in
+        dictum dui, consectetur pretium odio.
+      </p>
+      <article>
+        <p>
+          Integer nec risus metus. Praesent pharetra ac mauris quis sagittis.
+        </p>
+        <p>
+          Phasellus volutpat neque rhoncus luctus tempus. Duis maximus nisi est,
+          a faucibus tellus congue et.
+        </p>
+        <img
+          src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg"
+          alt="pixabay web site"
+        />
+      </article>
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>
+          Proin fringilla nisl id ante tempor posuere. Etiam at efficitur quam,
+          et varius leo.
+        </p>
+      </article>
+    </div>
+    <aside>
+      <h2>Nations</h2>
+      <ul>
+        <li>
+          Sweden -
+          <ol>
+            <li>Stockholm</li>
+            <li>Gothenburg</li>
+            <li>Malmo</li>
+          </ol>
+        </li>
+        <li>
+          Norway -
+          <ol>
+            <li>Oslo</li>
+            <li>Bergen</li>
+            <li>Stavanger</li>
+          </ol>
+        </li>
+        <li>
+          Finland -
+          <ol>
+            <li>Helsingfors</li>
+            <li>Tampere</li>
+            <li>Abo</li>
+          </ol>
+        </li>
+      </ul>
+    </aside>
+    <footer>
+      &copy; Copyright 2019 Anton Edholm
+    </footer>
+  </body>
+</html>
